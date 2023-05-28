@@ -2,8 +2,7 @@
 
 
 
-* Shuangtong Li, Tianyi Zhou, Xinmei Tian, Dacheng Tao, "Structured Cooperative Learning with Graphical Model Priors",  in Proceedings of the 40th International Conference on Machine
-  Learning (ICML2023), Honolulu, Hawaii, US
+* Shuangtong Li, Tianyi Zhou, Xinmei Tian, Dacheng Tao, "Structured Cooperative Learning with Graphical Model Priors",  in Proceedings of the 40th International Conference on Machine Learning (ICML2023), Honolulu, Hawaii, US
 
 
 
@@ -18,3 +17,10 @@ We propose ``Structured Cooperative Learning (SCooL)'', in which a cooperation g
 | ![image](https://github.com/ShuangtongLi/SCooL/blob/main/figures/all_graphical_models.png) |
 | :----------------------------------------------------------: |
 |          *Figure 2. Probabilistic models used in SCooL examples.*          |        
+
+## Citation
+
+If you find this repo useful, please cite our paper. 
+
+
+
