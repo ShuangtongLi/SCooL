@@ -52,7 +52,7 @@ The experiments run on a decentralized learning setting with 100 clients. Every 
 |:----|:----|:----|:----|
 |Local only|Local SGD only|87.5|87.41|
 |Federated|FedAvg FOMO Ditto|70.65|71.59|
-| |FOMO|88.72|85 90.30|
+| |FOMO|88.72|90.30|
 | |Ditto|87.32|88.13|
 |Decentralized|D-PSGD(s=I step)|83.01|85.20|
 | |D-PSGD(s=5 epochs)|75.89|77.33|
