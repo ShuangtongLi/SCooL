@@ -45,14 +45,30 @@ We provide training scripts on CIFAR-10 dataset in folder "scripts".
     sh scripts/SCooLattention_NonIIDSBM_Cifar10.sh
     ```
 ### Results
-The repo visualizes the results with wandb. We test the code on a single GTX 1080ti, which costs about a day for training. Running with the provided scripts will get the following test acc on CIFAR-10:
 
-||non-iid|non-iid SBM|
-|---|---|---|
-|**SCooL-SBM**|91.74|94.47|
-|**SCooL-attention**|92.47|94.33|
+The experiments run on a decentralized learning setting with 100 clients. Every client trains a personalized model to solve a two-class classification task on CIFAR-10 dataset. Our SCooL methods outperform previous federated / decentralized learning baselines:
+
+| Methodology | Algorithm |non-iid|non-iid SBM|
+|:----|:----|:----|:----|
+|Local only|Local SGD only|87.5|87.41土4.21|
+|Federated|FedAvg FOMO Ditto|70.65|71.59|
+| |FOMO|88.72|85 90.30|
+| |Ditto|87.32|88.13|
+|Decentralized|D-PSGD(s=I step)|83.01士7.34|85.2014.05|
+| |D-PSGD(s=5 epochs)|75.89|77.33|
+| |CGA(s=1 step)|65.65|69.93|
+| |CGA(s=5 epochs)|diverge|diverge|
+| |SPDB(s=1 step)|82..36|81.75|
+| |SPDB(s=5 epochs)|81.15|81.25|
+| |Dada|85.65|88.89|
+| |meta-L2C|92.1|91.84|
+|**SCooL(Ours)***|**SCooL-SBM**|91.74|**94.47**|
+| |**SCooL-attention**|**92.47**|94.33|
+
+*The test acc results of SCooL-SBM && SCooL-attention are given by running the above given training scripts, which are slightly higher than reported in our paper. Our repo visualizes the results with wandb. We test the code on a single GTX 1080ti, which costs about a day for training. 
 
 ## :scroll: Acknowledgement
+
 Our SBM code is developed from this [implementation](https://github.com/saeid651/MMSBM-VI). Thanks for their efforts!
 
 ## :scroll: BibTeX
