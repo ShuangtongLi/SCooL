@@ -1,0 +1,7 @@
+mpi4py
+pytorch
+torchvision
+matplotlib
+numpy
+scipy
+wandb

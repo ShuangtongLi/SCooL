@@ -1,0 +1,37 @@
+mpirun -np 1 \
+python SCooL_SBM.py \
+--lr 0.01 \
+--bs 10 \
+--epoch 100 \
+--budget 0.5 \
+-n DPSGD \
+--model res \
+-p \
+--description experiment \
+--graphid 0 \
+--dataset cifar10_tiny \
+--datasetRoot /gdata2/list/dataset \
+--savePath ./exp_result_ \
+--randomSeed 10 \
+--save \
+--every_label_split_num 20 \
+--split_label_group_num 5 \
+--graph_name full \
+--communicator None \
+--mixing_lr 0.1 \
+--mixing_momentum 0.9 \
+--mixing_weight_decay 0.0 \
+--mixing_updates 1 \
+--start_mixing_epoch 0 \
+--communicate_iteration 250 \
+--weight_decay 0.0 \
+--momentum 0.0 \
+--pretrain_epoch -1 \
+--smoothing_lambda 0.0 \
+--child_rank_num 100 \
+--fix_graph_epoch 10 \
+--mask_fraction 0.2 \
+--model_arch CNN \
+--mixing_model_arch layerwise \
+--experiment_setting non-iid_SBM \
+--scale 1
