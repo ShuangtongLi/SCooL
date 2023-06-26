@@ -54,7 +54,7 @@ The experiments run on a decentralized learning setting with 100 clients. Every 
 |Federated|FedAvg FOMO Ditto|70.65|71.59|
 | |FOMO|88.72|85 90.30|
 | |Ditto|87.32|88.13|
-|Decentralized|D-PSGD(s=I step)|83.01士7.34|85.2014.05|
+|Decentralized|D-PSGD(s=I step)|83.01|85.2014.05|
 | |D-PSGD(s=5 epochs)|75.89|77.33|
 | |CGA(s=1 step)|65.65|69.93|
 | |CGA(s=5 epochs)|diverge|diverge|
