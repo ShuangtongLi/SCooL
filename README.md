@@ -65,7 +65,7 @@ The experiments run on a decentralized learning setting with 100 clients. Every 
 |**SCooL(Ours)***|**SCooL-SBM**|91.74|**94.47**|
 | |**SCooL-attention**|**92.47**|94.33|
 
-*The test acc results of SCooL-SBM && SCooL-attention are given by running the above given training scripts, which are slightly higher than reported in our paper. Our repo visualizes the results with wandb. We test the code on a single GTX 1080ti, which costs about a day for training. 
+*The test acc results of SCooL-SBM && SCooL-attention are given by running the above training scripts, which are slightly higher than reported in our paper. Our repo visualizes the results with [wandb](https://wandb.ai/). We test the code on a single GTX 1080ti, which costs about a day for training. 
 
 ## :scroll: Acknowledgement
 
@@ -81,5 +81,4 @@ If you find this repo useful, please cite our paper:
   year={2023}
 }
 ```
-
 
