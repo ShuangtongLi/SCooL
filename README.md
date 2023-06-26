@@ -58,13 +58,12 @@ Our SBM code is developed from this [implementation](https://github.com/saeid651
 ## :scroll: BibTeX
 If you find this repo useful, please cite our paper:
 ```
-@article{li2023structured,
+@inproceedings{li2023structured,
   title={Structured Cooperative Learning with Graphical Model Priors},
   author={Li, Shuangtong and Zhou, Tianyi and Tian, Xinmei and Tao, Dacheng},
-  journal={arXiv preprint arXiv:2306.09595},
+  booktitle={International Conference on Machine Learning},
   year={2023}
 }
 ```
-
 
 
